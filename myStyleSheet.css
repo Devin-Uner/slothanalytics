@@ -46,6 +46,7 @@ ul {
 
 /* Info tab styles */
 .GeneralInfo {
+	font-size: 50px;
 	color: #330033;
 	text-shadow: 1px 1px #616161;
 	margin: 0px 0px 0px 0px;
