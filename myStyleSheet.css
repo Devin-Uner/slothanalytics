@@ -1,5 +1,5 @@
 body {
-    
+    margin: 0px 0px 0px 0px;
     font-family:'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica';
 }
 h1 {
@@ -9,18 +9,50 @@ h1 {
 p {
     font-family:'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica';
 }
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #4e342e;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
 
 .info {
-	background-color: #00ccff;
+	margin: 0px 0px 0px 0px;
+	background-color: #aed581;
 	height:100vh;
+	padding-bottom: 50px;
+	padding-top: 50px;
 }
 
 .questions {
+	margin: 0px 0px 0px 0px;
 	background-color: #ffcc00;
 	height:100vh;
+	padding-bottom: 50px;
+	padding-top: 50px;
 }
 
 .maps {
+	margin: 0px 0px 0px 0px;
 	background-color: #ff3300;
 	height:100vh;
+	padding-bottom: 50px;
+	padding-top: 50px;
 }
