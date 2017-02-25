@@ -1,9 +1,19 @@
 <!DOCTYPE html>
 <html>
+
+<!--This is what appears on the tab in a browser-->
 <title>Sloth Analytics</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="/lib/w3.css">
+
 <head>
+	<!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
 	<style>
 		div.cities {
 		    background-color: black;
@@ -67,61 +77,66 @@
 
 
 <body>
-<!--Let's see if we can import the text and use it in here vs using an image for the txt-->
-<p><img src = "C:\Users\Lindsey\Desktop\SlothCo\slothanalytics\Logo\TextLogo\TextLogo.jpg" alt = "Sloth Analytics" align="middle" align="top" style = width: 400 px; height:300 px;></p><br>
+	<!--Import jQuery before materialize.js-->
+ 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+ 	
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+	<!--Let's see if we can import the text and use it in here vs using an image for the txt-->
+	<p><img src = "C:\Users\Lindsey\Desktop\SlothCo\slothanalytics\Logo\TextLogo\TextLogo.jpg" alt = "Sloth Analytics" align="middle" align="top" style = width: 400 px; height:300 px;></p><br>
 
 
-<div class="dropdown">
-  <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-  <div id="myDropdown" class="dropdown-content">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
-  </div>
-</div>
+	<div class="dropdown">
+  	<button onclick="myFunction()" class="dropbtn">Dropdown</button>
+	  	<div id="myDropdown" class="dropdown-content">
+		    <a href="#">Link 1</a>
+		    <a href="#">Link 2</a>
+		    <a href="#">Link 3</a>
+	  	</div>
+	</div>
 
-<div class="cities">
-	<h2>London</h2>
-		<p>London is the capital of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.
+	<div class="cities">
+		<h2>London</h2>
+			<p>London is the capital of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.
+			</p>
+	</div>
+
+	<div class="cities">
+		<h2>Paris</h2>
+		<p>Paris is the capital and most populous city of France.
 		</p>
-</div>
+	</div>
 
-<div class="cities">
-	<h2>Paris</h2>
-	<p>Paris is the capital and most populous city of France.
-	</p>
-</div>
-
-<div class="cities">
-	<h2>Tokyo</h2>
-	<p>Tokyo is the capital of Japan, the center of the Greater Tokyo Area,
-	and the most populous metropolitan area in the world.
-	</p>
-</div>
+	<div class="cities">
+		<h2>Tokyo</h2>
+		<p>Tokyo is the capital of Japan, the center of the Greater Tokyo Area,
+		and the most populous metropolitan area in the world.
+		</p>
+	</div>
 
 
 <!--SCRIPT STUFFS -->
 <script>
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-}
+	/* When the user clicks on the button, 
+	toggle between hiding and showing the dropdown content */
+	function myFunction() {
+	    document.getElementById("myDropdown").classList.toggle("show");
+	}
 
-// Close the dropdown menu if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
+	// Close the dropdown menu if the user clicks outside of it
+	window.onclick = function(event) {
+	  if (!event.target.matches('.dropbtn')) {
 
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
+	    var dropdowns = document.getElementsByClassName("dropdown-content");
+	    var i;
+	    for (i = 0; i < dropdowns.length; i++) {
+	      var openDropdown = dropdowns[i];
+	      if (openDropdown.classList.contains('show')) {
+	        openDropdown.classList.remove('show');
+	      }
+	    }
+	  }
+	}
 </script>
 
 </body>

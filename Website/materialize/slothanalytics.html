@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<!--This is what appears on the tab in a browser-->
+<title>Sloth Analytics</title>
+
+<head>
+	<style>
+		div.cities {
+		    background-color: black;
+		    color: white;
+		    margin: 20px 0 20px 0;
+		    padding: 20px;
+		} 
+
+		/* Dropdown Button */
+		.dropbtn{
+			background-color: #4CAF50;
+			color: white;
+    		padding: 16px;
+    		font-size: 16px;
+    		border: none;
+    		cursor: pointer;
+		}
+
+		/* The container <div> - needed to position the dropdown content */
+		.dropdown {
+    		position: relative;
+    		display: inline-block;
+		}
+
+		/* Dropdown Content (Hidden by Default) */
+		.dropdown-content {
+   			display: none;
+    		position: absolute;
+    		background-color: #f9f9f9;
+    		min-width: 160px;
+    		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    		z-index: 1;
+		}
+
+		/* Links inside the dropdown */
+		.dropdown-content a {
+    	color: black;
+    	padding: 12px 16px;
+    	text-decoration: none;
+    	display: block;
+		}
+
+		/* Change color of dropdown links on hover */
+		.dropdown-content a:hover {
+			background-color: #f1f1f1
+		}
+
+		/* Show the dropdown menu on hover */
+		.dropdown:hover .dropdown-content {
+    		display: block;
+		}
+
+		/* Change the background color of the dropdown button when the dropdown content is shown */
+		.dropdown:hover .dropbtn {
+    		background-color: #3e8e41;
+		}
+
+	</style>
+</head>
+<!-- YO THIS LINK WAS IMPORTANT FOR THE DROP DOWN MENU: https://www.w3schools.com/howto/howto_js_dropdown.asp-->
+
+
+<body>
+<!--Let's see if we can import the text and use it in here vs using an image for the txt-->
+<p><img src = "C:\Users\Lindsey\Desktop\SlothCo\slothanalytics\Logo\TextLogo\TextLogo.jpg" alt = "Sloth Analytics" align="middle" align="top" style = width: 400 px; height:300 px;></p><br>
+
+
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+
+<div class="cities">
+	<h2>London</h2>
+		<p>London is the capital of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.
+		</p>
+</div>
+
+<div class="cities">
+	<h2>Paris</h2>
+	<p>Paris is the capital and most populous city of France.
+	</p>
+</div>
+
+<div class="cities">
+	<h2>Tokyo</h2>
+	<p>Tokyo is the capital of Japan, the center of the Greater Tokyo Area,
+	and the most populous metropolitan area in the world.
+	</p>
+</div>
+
+
+<!--SCRIPT STUFFS -->
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+</body>
+</html>
