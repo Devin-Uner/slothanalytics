@@ -1,10 +1,26 @@
-<!--Do not put any fucking HTML in this document. This is CSS only-->
 body {
-    background-color: powderblue;
+    
+    font-family:'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica';
 }
 h1 {
-    color: blue;
+    color: #c44dff;
+    font-family:'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica';
 }
 p {
-    color: red;
+    font-family:'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica';
+}
+
+.info {
+	background-color: #00ccff;
+	height:100vh;
+}
+
+.questions {
+	background-color: #ffcc00;
+	height:100vh;
+}
+
+.maps {
+	background-color: #ff3300;
+	height:100vh;
 }
