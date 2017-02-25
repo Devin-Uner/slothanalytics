@@ -1,79 +1,86 @@
 body{
 	margin: 0px 0px 0px 0px;
     font-family:'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica';
-	}
+}
 
-	h1 {
-	    color: #f5f5f5;
-	    text-shadow: 1px 1px #616161;
-	    font-family:'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica';
-		}
+h1 {
+    color: #f5f5f5;
+    text-shadow: 1px 1px #616161;
+    font-family:'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica';
+    padding-left: 5%;
+}
 
-		p{
-			font-family:'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica';
-    	}
+p{
+	font-family:'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica';
+	padding-right: 30%;
+	padding-left: 10%;
+}
 
-	li {
-	    float: left;
-	}
+li {
+    float: left;
+}
 
-	/* Hover menu settings 
-	This is donneeee*/
-	li a{
-		font-size: 25px;
-	    display: block;
-	    color: white;
-	    text-align: center;
-	    padding: 14px 16px;
-	    text-decoration: none;
-	}
+/* Hover menu settings */
+li a{
+	font-size: 25px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    padding-left: 15px;
+    /* No text decoration ensures that it is not underlined -- THIS IS GOOD */
+    text-decoration: none;
+}
 
-	li a:hover {
-	    background-color: #4e342e;
-	}
-	
-	ul {
-	    list-style-type: none;
-	    margin: 0;
-	    padding: 0;
-	    overflow: hidden;
-	    background-color: #333;
-	}
+li a:hover {
+    background-color: #4e342e;
+}
 
-	/* Info tab styles */
-	.GeneralInfo {
-		font-size: 30px;
-		color: #f5f5f5;
-		text-shadow: 1px 1px #616161;
-		margin: 0px 0px 0px 0px;
-		background-color: #aed581;
-		height:100vh;
-		padding-bottom: 50px;
-		padding-top: 25px;
-	}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
 
-	.Maps {
-		margin: 0px 0px 0px 0px;
-		background-color: #0dbdbd ;
-		height:100vh;
-		padding-bottom: 50px;
-		padding-top: 50px;
-	}
+/* Info tab styles */
+.GeneralInfo {
+	color: #330033;
+	text-shadow: 1px 1px #616161;
+	margin: 0px 0px 0px 0px;
+	background-color: #cddc39;
+	/* #aed581 */
+	height:100vh;
+	padding-bottom: 15px;
+	padding-top: 5px;
+	padding-left: 15px
+}
 
-	.SymptomChecker {
-		margin: 0px 0px 0px 0px;
-		background-color: #80d8ff ;
-		height:100vh;
-		padding-bottom: 50px;
-		padding-top: 50px;
-	}
+.Maps {
+	margin: 0px 0px 0px 0px;
+	background-color: #0dbdbd ;
+	height:100vh;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
 
-	.Whatever
-	{
-	 	margin: 0px 0px 0px 0px;
-		background-color: #80d8ff ;
-		height:100vh;
-		padding-bottom: 50px;
-		padding-top: 50px;
-	}
+.SymptomChecker {
+	margin: 0px 0px 0px 0px;
+	background-color:  #5c6bc0;
+	/* #80d8ff */
+	height:100vh;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+.how-it-works
+{
+ 	margin: 0px 0px 0px 0px;
+	background-color: #b39ddb; 
+	/* #df80ff*/
+	height:100vh;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
 }
