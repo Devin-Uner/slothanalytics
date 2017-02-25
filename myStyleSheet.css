@@ -3,7 +3,8 @@ body {
     font-family:'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica';
 }
 h1 {
-    color: #c44dff;
+    color: #f5f5f5;
+    text-shadow: 1px 1px #bdbdbd ;
     font-family:'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica';
 }
 p {
@@ -43,7 +44,7 @@ ul {
 
 .questions {
 	margin: 0px 0px 0px 0px;
-	background-color: #ffcc00;
+	background-color: #80d8ff ;
 	height:100vh;
 	padding-bottom: 50px;
 	padding-top: 50px;
@@ -51,7 +52,7 @@ ul {
 
 .maps {
 	margin: 0px 0px 0px 0px;
-	background-color: #ff3300;
+	background-color: #b39ddb;
 	height:100vh;
 	padding-bottom: 50px;
 	padding-top: 50px;
