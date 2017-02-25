@@ -1,0 +1,498 @@
+$
+Allergy
+
+congestion
+itchy and watery eyes
+
+$
+Anemia
+
+lightheaded
+fatigue
+pale
+fast heart rate
+trouble breathing
+
+$
+Anxiety
+
+palpitations
+sweating
+irritability
+stress
+
+$
+Appendicitis
+
+abdominal pain
+abdominal swelling
+back pain
+constipation
+diarrhea
+fever
+unable to pass gas
+low appetite
+nausea
+painful urination
+rectal pain
+
+$
+Bladder Infection
+
+urine
+abdominal pain
+rectal pain
+frequent urinary
+urinary urgency
+
+$
+Blood Clot
+
+abdominal pain
+chest pain
+confusion
+diarrhea
+dizziness
+headache
+no sensation
+brain problems
+numb
+pallor
+paralysis
+trouble breathing
+speech problems
+vision problems
+warmth
+fatigue
+
+$
+Brain Tumor
+
+can't balance
+headache
+hearing changes
+memory problems
+nausea
+numb
+personality changes
+tingling
+trouble concentate
+vision problems
+fatigue
+
+$
+Breast Cancer
+
+breast lump
+breast pain
+breast swelling
+breast size changes
+breast skin problems
+bloody nipple
+nipple pain
+nipple inversion
+
+$
+Cancer
+
+fatigue
+weight loss
+skin changes
+stool
+urine
+unusual bleeding
+coughing
+voice change
+fever
+tissue masses
+
+$
+Cervical Cancer
+
+viginal bleeding
+bleed after sex
+bleed between periods
+heavy periods
+painful intercourse
+pelvic pain
+vaginal discharge
+
+$
+Cold
+
+cough
+stuffy nose
+sore throat
+sneezing
+fever
+watery eyes
+headache
+fatigue
+body pain
+
+$
+Colon Cancer
+
+rectal bleeding
+constipation
+diarrhea
+stool
+weight loss
+fatigue
+trouble breathing
+
+$
+Dengue
+
+abdominal pain
+bleeding gums
+bone pain
+trouble breathing
+easy bruising
+fever
+headache
+joint pain
+back pain
+muscle pain
+nose bleed
+eyes pain
+rash
+skin hemorrhages
+swollen lymph nodes
+nausea
+
+$
+Depression
+
+feel worthless
+hopeless
+helpless
+guilt
+no interest
+irritable
+no energy
+low appetite
+sleep problems
+self-loathing
+suicide thoughts
+
+$
+Diabetes
+
+vision problems
+dehydration
+dry mouth
+fatigue
+frequent peeing
+hungry
+easily get infected
+thirsty
+itchy skin
+nausea
+slow healing
+vaginal infections
+weight gain
+weight loss
+
+
+$
+Early pregnancy
+
+no menstruation
+weight gain
+mood changes
+increased urination
+back pain
+headache
+darkened areolas
+fatigue
+nausea
+implantation bleeding
+
+$
+Flu(Infuenza)
+
+fever
+chills
+coughing
+headache
+nausea
+muscle pain
+fatigue
+sore throat
+diarrhea
+
+$
+Heart attacks
+
+chest pain
+heart failure
+high blood pressure
+
+$
+Herpes
+
+blisters
+burning sensation
+fever
+itchy skin
+pain
+rash
+swollen lymph nodes
+tingling
+
+$
+High Blood Pressure (Hypertension)
+
+urine
+vision problems
+chest pain
+dizziness
+headache
+leg swelling
+nosebleeds
+neck pounding
+trouble breathing
+
+$
+HIV
+
+diarrhea
+fatigue
+fever
+fungal nails
+groin swelling
+white Tongue
+mouth sores
+oral thrush
+rash
+sore throat
+sweating
+swollen lymph nodes
+weight loss
+
+$
+Hyperthermia
+
+coma
+confusion
+dizziness
+fast heart rate
+fainting
+fever
+headache
+muscle cramps
+nausea
+no sweat
+rash
+red skin
+seizures
+fatigue
+
+$
+Irritable Bowel Syndrome (IBS)
+
+abdominal pain
+bowel habit changes
+bloating
+stool
+passing gas
+
+$
+Kidney stone
+
+andominal pain
+urine
+flank pain
+back pain
+nausea
+scrotal pain
+sweating
+testicular pain
+
+$
+Leukemia
+
+bleeding gums
+bone pain
+confusion
+easy bruising
+larger liver
+larger spleen
+fatigue
+fever
+headache
+joint pain
+no muscle control
+nausea
+sweating
+seizure
+swollen lymph nodes
+weight loss
+
+$
+Vaginal Yeast Infection
+
+Vaginal irritation
+vaginal discharge
+
+$
+Urinary Tract Infection
+
+fever
+urine
+
+$
+Ulcer
+
+low appetite
+abdominal pain
+dark poop
+
+$
+Swine flu
+
+fever
+cough
+stuffy nose
+fatigue
+headache
+
+$
+stroke
+
+numbness
+fatigue
+tingling
+vision problems
+confusion
+loss of consciousness
+speech problems
+nausea
+
+$
+Strep Throat
+
+sore throat
+difficulty swallowing
+fever
+chills
+muscle aches
+swollen lymph nodes
+rash
+
+$
+Sinus Infection
+
+face swollen
+face pain
+earache
+jaw pain
+cough
+fever
+trouble breathing
+sneezing
+ear pain
+
+$
+Prostate cancer
+
+urinary problems
+weight loss
+bone pain
+
+$
+Pregnancy
+
+missed menstrual cycle
+breast pain
+nausea
+fatigue
+mood swings
+headache
+frequent urination
+
+$
+Pneumonia
+
+sore throat
+stuffy nose
+cough
+fever
+chills
+chest pain
+fatigue
+headache
+
+$
+Pancreatic cancer
+
+jaundice
+nausea
+weight loss
+itchy skin
+low appitite
+back pain
+
+$
+Ovarian cancer
+
+abdominal swelling
+low appitite
+trouble breathing
+
+$
+Multiple Sclerosis
+
+vision problems
+tingling
+numbness
+speech problems
+brain problems
+
+$
+mono
+
+fatigue
+low appetite
+chills
+sore throat
+fever
+swollen lymph nodes
+
+$
+Menopause
+
+vaginal bleeding
+absence of menstrual cycle
+sweating
+vaginal irritation
+
+$
+lyme disease
+
+skin inflammation
+rash
+fever
+chills
+headache
+muscle pain
+swollen lymph nodes
+
+$
+lupus
+
+fever
+joint pain
+rash
+nausea
+muscle pain
+fatigue
+
+$
+lung cancer
+
+trouble breathing
+chest pain
+coughing blood
+difficulty swallowing
