@@ -74,8 +74,7 @@ ul {
 	padding-top: 50px;
 }
 
-.how-it-works
-{
+.meetTheTeam{
  	margin: 0px 0px 0px 0px;
 	background-color: #b39ddb; 
 	/* #df80ff*/
@@ -83,4 +82,10 @@ ul {
 	padding-bottom: 50px;
 	padding-top: 50px;
 }
+
+.ratings{
+	background-color: #fbc02d;
+	height:100vh;
+	padding-bottom: 50px;
+	padding-top: 50px;
 }
