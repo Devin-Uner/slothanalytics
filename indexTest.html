@@ -1,0 +1,64 @@
+<html>
+	<!DOCTYPE html>
+	<html lang="en-US">
+	<head>
+		<link rel="stylesheet" type="text/css" href="myStyleSheet.css">
+
+		<title> Sloth Analytics </title>
+
+	</head>
+
+	<!-- Actual text that is displayed on the webpage --> 
+	<body>
+		<!-- The imgLogo for the top of the page. Has characteristics to fill the page 80% x 20%, the image is aligned to the center-->
+		<left><img src="/Users/Smruthi/Desktop/slothco/slothanalytics/Logo/ImgLogo/SlothCO.png" alt = "SlothCo" style= "width: 300px; height: 300px;" style=" text-align:left;"></left>
+		<!-- The textLogo for the top of the page. Has characteristics to fill the page 80% x 20%, the image is aligned to the center-->
+		<img src = "/Users/Smruthi/Desktop/slothco/slothanalytics/Logo/TextLogo/TextLogo.jpg" alt = "Sloth Analytics" align="right" style = " width: 70%; height: 20%; position: absolute; padding-top: 10%;" >
+
+		<!--The interactive menu at the top underneath the logo contains: 
+			1. About 
+			2. Maps
+			3. Symptom Checker
+			4. Contact -->
+		<ul>
+		  <li><a class="active" href="#about"><b>General Info</a></li>
+		  <li><a href="#maps">Maps</a></li>
+		  <li><a href="#solutions">Symptom Checker</a></li>
+		  <li><a href="#information">Info</a></li>
+		</ul>
+
+		<!-- Class division: Info --> 
+		<div class="GeneralInfo" id="about">
+			<!-- Main title: aligned left--> 
+			<h1><left>We are Sloth Analytics </left></h1>
+
+			<!-- Paragraph about us: aligned center -->
+			<p>By redefining the way you analyze data in the medical field, our team works to innovate software capable of tracking diseases and diagnosing patients in real time. We are saving lives, speeding up medical research, and are improving healthcare worldwide.</p>
+
+			
+		</div>
+
+		<!-- Class division: Questions -->
+		<div class="Maps" id="maps">
+			<h1>Maps</h1>
+		</div>
+
+		<div class="SymptomChecker" id="solutions">
+			<h1>Symptom Checker</h1>
+			<p><center>Check the boxes of the symptoms you are currently having so we can figure out what the problem might be!</center></p>
+			<h2><center>Are you...?</center></h2>
+			<!-- This is how to make checkboxes. Is it possible to make the check boxes larger? -->
+			<form><center>
+				<!-- Various inputs or "titles" of the checkboxes --> 
+				<input type="checkbox" name="coughing_box" value="coughing"> coughing
+				<input type="checkbox" name="sneezing_box" value="sneezing"> sneezing
+				</center> 
+			</form>
+		<div class = "how-it-works" id="information">
+			<h1> How it all works...</h1>
+			<p>Our solution to worldwide illness is simple: use intellect rather than brute force. Our algorithms utalize state of the art neural networks to diagnose and learn over time. If they are incorrect, they adapt, if they recieve new data, they will learn. Every time the page is loaded the neural network gets a little bit more accurate, a little bit smarter. Every computer using our software acts as a training camp of sorts, where the algorithm uses a trivial amount of the users processing power to improve itself. Over time, with millions or even billions of connected devices, its potential is limitless. <br>
+			The neural network has three layers. One layer takes in the input and processes it, another layer acts as a secondary processing area, and the third processes data one last time before returning the result.</p>
+		</div>
+
+	</body>
+</html>
