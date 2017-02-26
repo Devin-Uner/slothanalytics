@@ -45,8 +45,13 @@ ul {
 }
 
 /* Info tab styles */
+<<<<<<< HEAD
 .GeneralInfo {
 	font-size: 28px;
+=======
+.overview{
+	font-size: 35px;
+>>>>>>> 8529b9a13413b2cd2c625307eb1c70123265aa8a
 	color: #330033;
 	margin: 0px 0px 0px 0px;
 	background-color: #7cb342;
@@ -57,7 +62,7 @@ ul {
 	padding-left: 0px
 }
 
-.Maps {
+.howItWorks {
 	margin: 0px 0px 0px 0px;
 	background-color: #0dbdbd ;
 	height:100vh;
@@ -74,8 +79,7 @@ ul {
 	padding-top: 50px;
 }
 
-.how-it-works
-{
+.meetTheTeam{
  	margin: 0px 0px 0px 0px;
 	background-color: #b39ddb; 
 	/* #df80ff*/
@@ -83,4 +87,10 @@ ul {
 	padding-bottom: 50px;
 	padding-top: 50px;
 }
+
+.ratings{
+	background-color: #fbc02d;
+	height:100vh;
+	padding-bottom: 50px;
+	padding-top: 50px;
 }
